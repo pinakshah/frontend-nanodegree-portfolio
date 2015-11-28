@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Cinzel", serif;
+	color: #3e4095;
+}
+
+hr {
+	margin: 10px 0;
+}
+
+.thick {
+	border: 4px solid #747704;
+}
+
+.thin {
+	border: 2px solid #747704;
+}
+
+.logo {
+	margin: 10px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.snippet-desc {
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	max-height: 4.5em;
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+}
+
+.main-title {
+	font-size: 60px;
+	margin: 10px 0 5px;
+}
+
+.sub-title {
+	color: #b2bb43;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.banner {
+	margin-bottom: 20px;
+}
+
+.project {
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+	.logo {
+		margin: 10px auto;
+	}
+
+	.main-title {
+		font-size: 48px;
+	}
+
+	.text-xs-center {
+		text-align: center;
+	}
+}
